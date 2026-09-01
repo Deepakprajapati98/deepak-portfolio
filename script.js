@@ -97,3 +97,16 @@ function animateParticles(){
   requestAnimationFrame(animateParticles);
 }
 animateParticles();
+function login() {
+    const username = document.getElementById("username").value.trim();
+    const password = document.getElementById("password").value;
+
+    const correctUsername = "Deepak";
+    const correctPassword = "12345";
+
+    if (username === correctUsername && password === correctPassword) {
+        window.location.href = "portfolio.html";
+    } else {
+        alert("❌ Incorrect username or password!");
+    }
+}
