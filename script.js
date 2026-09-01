@@ -102,7 +102,8 @@ function login() {
     const password = document.getElementById("password").value;
 
     const correctUsername = "Deepak";
-    const correctPassword = "12345";
+    const correctPassword = "982541";
+";
 
     if (username === correctUsername && password === correctPassword) {
         window.location.href = "portfolio.html";
