@@ -102,7 +102,7 @@ function login() {
     const password = document.getElementById("password").value;
 
     const correctUsername = "Deepak";
-    const correctPassword = "982541";
+    const correctPassword = "12345";
 ";
 
     if (username === correctUsername && password === correctPassword) {
